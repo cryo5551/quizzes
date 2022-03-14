@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+
+        <div class="container">
+            <div class="header">
+                <div class="image">
+                    <img src="./weather.png" alt="">
+                    <h2>Weather TV</h2>
+                </div>
+                <div class="menu">
+                    <!-- <h2>Weather forecast</h2> -->
+                </div>
+            </div>
+
+            <div class="body">
+
+
+                <input type="text" placeholder="Enter your city" id="input_city">
+                <button id="btn">Search</button>
+
+            </div>
+            <div class="today_weather">
+                <div class="jaipur">
+                    <div class="newclass">
+                        <div>
+                            <span id="jai">Jaipur</span>
+                        </div>
+                        <div class="move">
+                            <span id="min_temp">
+                                
+                            </span>
+                            <span id="max_temp">
+                               
+                            </span>
+                        </div>
+                        <div>
+                            <span id="jai_desc"></span>
+                        </div>
+                    </div>
+
+                    <span id="jai_img"><img src="./kindpng_1780615.png" alt=""></span>
+                    <div class="temp">
+                        <div class="disp">
+                            <span id="jai_temp"></span>
+                        </div>
+                        <div>
+                            <span id="jai_deg"><img src="./pngwing.com.png" alt=""></span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="float">
+            <div>
+            <h1 id="cityname"></h1>
+            <h2 id="desc"></h2>
+        </div>
+        <h1 id="temprature"></h1>
+        <h3><span id="min"></span>
+        <span id="max"></span></h3>
+        </div>
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
